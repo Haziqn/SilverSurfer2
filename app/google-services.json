@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "327161254357",
+    "firebase_url": "https://silversurfer-67220.firebaseio.com",
+    "project_id": "silversurfer-67220",
+    "storage_bucket": "silversurfer-67220.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327161254357:android:d950d12402d37849",
+        "android_client_info": {
+          "package_name": "sg.edu.rp.c346.silversurfer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327161254357-gieenirmi35c8ririkm3tnn5snsktu8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sg.edu.rp.c346.silversurfer",
+            "certificate_hash": "77C659E59F7E71DAB171E5DB06CBED33033CCFD9"
+          }
+        },
+        {
+          "client_id": "327161254357-okrfagspl8790urp9rkni6vritqgaect.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpCwZoiC9jz-lSlCsd0UV2Jcok69yQEro"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327161254357-okrfagspl8790urp9rkni6vritqgaect.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

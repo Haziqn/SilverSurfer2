@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SilverSurfer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="tvalrdyreg">Already Registered? Sign in here!</string>
+    <string name="btnreg">Register</string>
+    <string name="btnSingIn">Sign In</string>
+    <string name="tvNotReg">Not registered? Register here!</string>
+    <string name="tvSignIn">Sign In</string>
+    <string name="tvreg">Register User</string>
+    <string name="btnSignOut">Sign Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about">How to use the app:
+There are three main features of this app:
+1.	Health and Fitness
+2.	Photos
+3.	Find Pharmacies
+
+1.	Health and Fitness
+Here is where you can find useful info and inspiration about how to maintain fitness, exercises and good habits to stay healthy. It is possible to still have fun and feel young again, despite having health problems.
+Find out more here.
+2.	Photos
+Have any memories you cherish most? You can store them here! Wouldn’t that be lovely? Now you know you know where all your favourite pictures are kept.
+You can upload photo from your album or take new ones by using a camera function with the aid of this app.
+3.	Find pharmacies
+Having trouble remembering important contacts or addresses for health support?
+You can find them all here!
+
+Settings
+Having trouble reading in this app? You can adjust the size by choosing the settings.
+
+    </string>
+    <string name="auth_failed">auth_failed</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="etName">Name</string>
+    <string name="etEmail">Email</string>
+    <string name="ivProfile">ProfilePic</string>
+    <string name="updatebtn">UPDATE</string>
+
+</resources>

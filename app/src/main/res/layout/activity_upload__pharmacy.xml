@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/titleP"
+        android:background="@drawable/input_outline"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:padding="15dp"
+        android:hint="Post Title Here"
+        android:singleLine="true" />
+
+    <Button
+        android:text="Submit Post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="@color/PrimaryColor"
+        android:id="@+id/submitbutton" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_marginTop="37dp"
+        android:id="@+id/openhoursP"
+        android:background="@drawable/input_outline"
+        android:padding="15dp"
+        android:hint="Post Address Here"
+        android:layout_below="@+id/addressP"
+        android:layout_alignStart="@+id/addressP"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/addressP"
+        android:background="@drawable/input_outline"
+        android:padding="15dp"
+        android:hint="Post Open Hours Here"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/titleP"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
