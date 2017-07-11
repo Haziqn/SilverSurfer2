@@ -35,7 +35,7 @@ public class Upload_Photos extends AppCompatActivity {
 
     private ProgressDialog Progress;
 
-    private  static final int GALLERY_REQUEST = 1;
+    private static final int GALLERY_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

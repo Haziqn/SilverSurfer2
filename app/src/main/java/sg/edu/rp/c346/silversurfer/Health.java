@@ -75,9 +75,6 @@ public class Health extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
-
-
-
     }
     @Override
     public void onStart() {
@@ -149,9 +146,12 @@ public class Health extends Fragment {
         View view = inflater.inflate(R.layout.fragment_health,
                 container, false);
         mDatabase = FirebaseDatabase.getInstance().getReference().child("Health");
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity().getBaseContext());
+        linearLayoutManager.setReverseLayout(true);
+        linearLayoutManager.setStackFromEnd(true);
         mBlogList =(RecyclerView)view.findViewById(R.id.health_list);
         mBlogList.setHasFixedSize(true);
-        mBlogList.setLayoutManager(new LinearLayoutManager(getActivity().getApplicationContext()));
+        mBlogList.setLayoutManager(new LinearLayoutManager(getActivity().getBaseContext()));
 
         return view;
     }

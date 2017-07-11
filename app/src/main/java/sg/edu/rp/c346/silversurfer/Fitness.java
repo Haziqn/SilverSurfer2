@@ -75,9 +75,6 @@ public class Fitness extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
 
-
-
-
     }
     @Override
     public void onStart() {
@@ -100,8 +97,6 @@ public class Fitness extends Fragment {
         };
 
         mBlogList.setAdapter(firebaseRecyclerAdapter);
-
-
     }
 
     public static class BlogViewHolder extends RecyclerView.ViewHolder{

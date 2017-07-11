@@ -28,6 +28,7 @@ public class Upload_Fitness extends AppCompatActivity {
         setContentView(R.layout.activity_upload_fitness);
         mDatabase = FirebaseDatabase.getInstance().getReference().child("Fitness");
 
+
         etTitle = (EditText)findViewById(R.id.titleF);
         etDesc = (EditText)findViewById(R.id.descF);
         btnSubmit = (Button)findViewById(R.id.submitbutton);

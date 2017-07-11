@@ -37,7 +37,11 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if (firebaseAuth.getCurrentUser() == null) {
-                    startActivity(new Intent(MainActivity.this, Main2Activity.class));
+                    Intent intent = new Intent(MainActivity.this, Register.class);
+                    //prevents the user from going back
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+
                 }
             }
         };

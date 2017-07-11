@@ -28,7 +28,7 @@ public class Account extends AppCompatActivity {
         setContentView(R.layout.activity_account);
         mDatabase = FirebaseDatabase.getInstance().getReference().child("Users");
         Progress = new ProgressDialog(this);
-        etName = (EditText)findViewById(R.id.etName);
+        etName = (EditText)findViewById(R.id.etPassword);
         etEmail = (EditText)findViewById(R.id.etEmail);
         updatebtn = (Button)findViewById(R.id.updateBtn);
         updatebtn.setOnClickListener(new View.OnClickListener() {
